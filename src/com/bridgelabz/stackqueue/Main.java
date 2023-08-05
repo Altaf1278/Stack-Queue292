@@ -8,5 +8,11 @@ public class Main {
         queue.add(30);
         queue.add(70);
         queue.display();
+
+        //Dequeue method:
+        System.out.println("Dequeue elements:" );
+        queue.remove();
+        queue.display();
     }
+
 }
